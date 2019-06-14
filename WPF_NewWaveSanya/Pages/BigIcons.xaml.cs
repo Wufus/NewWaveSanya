@@ -28,5 +28,13 @@ namespace WPF_NewWaveSanya.Pages
         {
             MainWindow.Instance.Navigate(new Pages.Scenario.Bes());
         }
+        private void ButtonTM_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.Instance.Navigate(new Pages.Scenario.TM());
+        }
+        private void ButtonBnt1_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.Instance.Navigate(new Pages.Scenario.Bnt1());
+        }
     }
 }
