@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_NewWaveSanya", "WPF_NewWaveSanya\WPF_NewWaveSanya.csproj", "{E2CC80FF-C542-41BD-8D2B-A0B3435BA626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2CC80FF-C542-41BD-8D2B-A0B3435BA626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CC80FF-C542-41BD-8D2B-A0B3435BA626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CC80FF-C542-41BD-8D2B-A0B3435BA626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CC80FF-C542-41BD-8D2B-A0B3435BA626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8271C118-ADB7-467C-83B8-624BD3A1A263}
+	EndGlobalSection
+EndGlobal
