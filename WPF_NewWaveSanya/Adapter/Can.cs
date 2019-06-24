@@ -308,7 +308,7 @@ namespace WPF_NewWaveSanya.Adapter
             rxThread.Start();
         }
 
-        bool TransmitData8(uint id, byte[] data)
+        static public bool TransmitData8(uint id, byte[] data)
         {
             IMessageFactory factory = VciServer.Instance().MsgFactory;
             ICanMessage canMsg = (ICanMessage)factory.CreateMsg(typeof(ICanMessage));
