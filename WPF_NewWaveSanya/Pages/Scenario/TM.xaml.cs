@@ -18,7 +18,7 @@ namespace WPF_NewWaveSanya.Pages.Scenario
 {
     public partial class TM : Page
     {
-        ICanMessage Tx1, Tx2, Tx3, Tx4;
+        //ICanMessage Tx1, Tx2, Tx3, Tx4;
         Boolean IsRed;
         Boolean IsGreen;
         Boolean IsBlue;
@@ -103,11 +103,10 @@ namespace WPF_NewWaveSanya.Pages.Scenario
         }
         private void SendTLPacks()
         {
-            /*Can.TransmitData8(0x27A, new byte[] { Colored, length, s[0], s[1], s[2], s[3], s[4], s[5] });
-            Can.TransmitData8(0x37A, new byte[] { s[6], s[7], s[8], s[9], s[10], s[11], s[12], s[13] });
-            Can.TransmitData8(0x47A, new byte[] { s[14], s[15], s[16], s[17], s[18], s[19], s[20], s[21] });
-            Can.TransmitData8(0x57A, new byte[] { s[22], s[23], s[24], s[25], s[26], s[27], s[28], s[29] });*/
-
+            Can.TransmitData8(0x27c, new byte[] { Colored, 0, 0, 0, 0, 0, 0, 0 });
+            Can.TransmitData8(0x37c, new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 });
+            Can.TransmitData8(0x47c, new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 });
+            Can.TransmitData8(0x57c, new byte[] { 0, 0, 0, 0, 0, 0, 0, 0 });
         }
     }
 }
